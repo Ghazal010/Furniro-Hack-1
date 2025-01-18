@@ -6,7 +6,6 @@ import Image from "next/image";
 export default function ProductDetails() {
   return (
     <div className="max-w-7xl mx-auto px-2 exsm:px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
- 
       <Tabs defaultValue="description" className="w-full">
         <TabsList className="grid w-full grid-cols-1 xsm:grid-cols-3 gap-2 sm:gap-4 mb-4 sm:mb-8 exsm:mb-[90px]">
           <TabsTrigger value="description" className="text-base sm:text-lg">Description</TabsTrigger>
@@ -17,10 +16,10 @@ export default function ProductDetails() {
         <TabsContent value="description" className="space-y-4 sm:space-y-6">
           <div className="prose max-w-none">
             <p className="text-gray-600 leading-relaxed mb-4 sm:mb-6">
-            Capturing the untamed, rebellious essence of rock 'n' roll, the Kilburn portable active stereo speaker carries the iconic style and sound of Marshall, disconnects from the wires, and brings the performance wherever you go.
+              Capturing the untamed, rebellious essence of rock &apos;n&apos; roll, the Kilburn portable active stereo speaker carries the iconic style and sound of Marshall, disconnects from the wires, and brings the performance wherever you go.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6 sm:mb-8">
-            Weighing less than 7 pounds, the Kilburn is a lightweight marvel of vintage-inspired design. As one of the loudest speakers in its category, it packs a punch with a well-rounded audio profile that delivers a clear midrange and crisp highs for a sound that's both detailed and powerful. The analog knobs let you adjust the settings to your liking, while the guitar-style leather strap ensures effortless and stylish portability.
+              Weighing less than 7 pounds, the Kilburn is a lightweight marvel of vintage-inspired design. As one of the loudest speakers in its category, it packs a punch with a well-rounded audio profile that delivers a clear midrange and crisp highs for a sound that&apos;s both detailed and powerful. The analog knobs let you adjust the settings to your liking, while the guitar-style leather strap ensures effortless and stylish portability.
             </p>
           </div>
 
