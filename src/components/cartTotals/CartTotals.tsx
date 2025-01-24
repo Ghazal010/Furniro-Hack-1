@@ -14,13 +14,13 @@ function CartTotals() {
 
       <div className='text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] flex items-center justify-between w-full mb-[20px] sm:mb-[31px]'>
         <p>Subtotal</p>
-        <p className='text-[#a5a4ae]'>Rs. 250,000.00</p>
+        <p className='text-[#a5a4ae]'>Rs. 200,000.00</p>
       </div>
 
       <div className='text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px] flex items-center justify-between w-full'>
         <p>Total</p>
         <p className='text-[#b88e2f] text-[18px] sm:text-[20px] leading-[26px] sm:leading-[30px]'>
-          Rs. 250,000.00
+          Rs. 200,000.00
         </p>
       </div>
 

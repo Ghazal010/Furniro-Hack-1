@@ -69,9 +69,5 @@ export const PcSection = [
        ten:"DTUBLIGRBL568",
        eleven:"Solid Wood",
        twelve:"L-SHaped",
-
-
 }
-
-
 ]

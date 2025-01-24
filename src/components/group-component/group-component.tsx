@@ -97,7 +97,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({
                 alt=""
                 src="/date.png"
               />
-              <div className="relative">14 Oct 2022</div>
+              <div className="relative">14 Oct 2024</div>
             </div>
 
             <div
@@ -127,8 +127,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({
           <div className="flex-1 relative leading-[150%] inline-block max-w-full">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
-            mauris vitae ultricies leo integer malesuada nunc. In nulla posuere
-            sollicitudin aliquam ultrices.
+            mauris vitae.
           </div>
         </div>
       </div>

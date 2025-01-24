@@ -57,12 +57,12 @@ export default function CheckoutForm() {
 
             <div className="space-y-2">
               <Label htmlFor="country">Country / Region</Label>
-              <Select defaultValue="sri-lanka">
+              <Select defaultValue="Pakistan">
                 <SelectTrigger>
                   <SelectValue placeholder="Select country" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="sri-lanka">Sri Lanka</SelectItem>
+                  <SelectItem value="Pakistan">Pakistan</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -73,7 +73,7 @@ export default function CheckoutForm() {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="city">Town / City</Label>
+              <Label htmlFor="city">City</Label>
               <Input id="city" required />
             </div>
 
@@ -84,7 +84,7 @@ export default function CheckoutForm() {
                   <SelectValue placeholder="Select province" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="western">Western Province</SelectItem>
+                  <SelectItem value="western">Sindh</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -122,17 +122,17 @@ export default function CheckoutForm() {
 
                 <div className="flex justify-between text-gray-600">
                   <span>Asgaard sofa x 1</span>
-                  <span>Rs. 250,000.00</span>
+                  <span>Rs. 200,000.00</span>
                 </div>
 
                 <div className="flex justify-between border-t pt-4">
                   <span>Subtotal</span>
-                  <span>Rs. 250,000.00</span>
+                  <span>Rs. 200,000.00</span>
                 </div>
 
                 <div className="flex justify-between border-t pt-4">
                   <span>Total</span>
-                  <span className="text-[#B88E2F] font-bold">Rs. 250,000.00</span>
+                  <span className="text-[#B88E2F] font-bold">Rs. 200,000.00</span>
                 </div>
 
                 <RadioGroup defaultValue="bank-transfer" className="mt-8">
@@ -142,7 +142,7 @@ export default function CheckoutForm() {
                       <div className="space-y-2">
                         <Label htmlFor="bank-transfer">Direct Bank Transfer</Label>
                         <p className="text-sm text-gray-600">
-                          Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                        Kindly transfer your payment directly to our bank account, using your Order ID as the payment reference. Please note that your order will be processed and shipped once the payment has been successfully cleared.
                         </p>
                       </div>
                     </div>
@@ -159,7 +159,7 @@ export default function CheckoutForm() {
                 </div>
 
                 <Button className="w-full mt-4" size="lg">
-                  Place order
+                Make your purchase
                 </Button>
               </div>
             </CardContent>

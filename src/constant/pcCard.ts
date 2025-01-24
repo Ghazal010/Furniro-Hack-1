@@ -15,8 +15,5 @@ export const pcCard = [
             reviewNumber:"4.2",
             star:4,
             review:"145 Reviews",
-
     }
-
-
 ]
