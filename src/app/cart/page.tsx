@@ -1,4 +1,4 @@
-
+"use client"
 import Shopbottombar from '@/components/shopBottomBar/Shopbottombar'
 import { Input } from '@/components/ui/input'
 import { Trash } from 'lucide-react'
